@@ -34,7 +34,7 @@ class App extends Component {
                 </header>
                 <div className="App-intro">
                     {this.state.data.map((stock,index) => {
-                        return <Stock key={index} meta={stock.meta} data={stock.data} />
+                        return <Stock key={index} privateData={stockList[index]} stockMeta={stock.meta} stockData={stock.data} />
                     })}
                     <hr/>
                     <h3>Raw data provided by alphaAdvantage</h3>
