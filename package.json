@@ -5,7 +5,7 @@
   "author": "Jason Geiger",
   "dependencies": {
     "alphavantage": "^1.1.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
